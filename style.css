@@ -10,7 +10,7 @@ body {
 
 .map {
     position: relative;
-    border: 2px solid rgba(17, 89, 28, 1);
+    border: 2px solid #0098A9;
     max-width: auto;
     align-items: center;
 }
@@ -30,11 +30,17 @@ body {
     line-height: 24px;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 32px;
-    color: rgba(17, 89, 28, 1);
+    color: #0098A9;
+}
+
+a {
+    text-decoration: none;
+    color: #0098A9;
+    font-weight: 700;
 }
 
 .content {
